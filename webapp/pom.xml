@@ -1,0 +1,24 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <artifactId>webapp</artifactId>
+   <packaging>war</packaging>
+   <name>webapp</name>
+   <parent>
+      <groupId>com.test</groupId>
+      <artifactId>simple-parent</artifactId>
+      <version>1.0</version>
+   </parent>
+   <dependencies>
+      <dependency>
+         <groupId>log4j</groupId>
+         <artifactId>log4j</artifactId>
+      </dependency>
+   </dependencies>
+   <build>
+      <plugins>
+         <plugin>
+            <artifactId>maven-war-plugin</artifactId>
+         </plugin>
+      </plugins>
+   </build>
+</project>
